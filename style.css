@@ -1,6 +1,7 @@
 *{
     margin: 0ch;
     box-sizing: border-box;
+    /* height: max-content; */
 }
 body {
     font-family: "Helvetica Neue", sans-serif;
@@ -13,22 +14,20 @@ body {
 
 .contai{
     margin: auto;
-    height: 91%;
+    /* height: 91%; */
     background-color: black;
     border-radius: 40px;
     /* margin-top: 20px; */
     /* margin-bottom: 20px; */
-    display: grid;
+    /* display: grid; */
     /* align-items: end; */
-    
-    
 }
 .container{
     display: grid;
     grid-template-columns: repeat(4,1fr);
-    /* height: 100vh; */
-    margin: 2rem 1rem 0;
-    /* gap: 10px; */
+    height: fit-content;
+    margin: 12rem 1rem 1rem;
+    
 }
 
     
@@ -37,11 +36,11 @@ body {
     align-items: center;
     justify-content: center;
     border-radius: 70%;
-    margin: .2rem;
+    margin: .3rem;
     color: white;
     font-weight: 500;
     font-size: 2rem;
-    padding: 0 20px;
+    padding: 15px 20px;
     
 }
 
@@ -63,8 +62,8 @@ body {
     grid-column-end: 5;
     grid-row-start: 1;
     grid-row-end: 3;
-    padding: 1.5rem;
-    margin-bottom: 3rem;
+    /* padding: 1.5rem; */
+    /* margin-bottom: 3rem; */
 }
 .content17{
     grid-area: 7/1/7/3;
@@ -77,5 +76,4 @@ body {
     cursor: pointer;
     opacity: .5;
 }
-
 
