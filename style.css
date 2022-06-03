@@ -24,7 +24,7 @@ body {
 .container{
     display: grid;
     grid-template-columns: repeat(4,1fr);
-    height: fit-content;
+    max-height: fit-content;
     margin: 1.5rem .8rem 1rem;
     
 }
@@ -62,10 +62,11 @@ body {
     grid-column-end: 5;
     grid-row-start: 1;
     grid-row-end: 3; */
-    padding: 35px 0;
+    padding: 35px 1rem;
     color: beige;
     /* margin-top: 5rem; */
     margin: 1rem .7rem 0;
+    height: 50px;
 }
 .rakamlar{
     border: 2px solid red;
