@@ -12,7 +12,6 @@ body {
     justify-content: center;
     background-color: #333333;
 }
-
 .contai{
     margin: auto;
     background-color: black;
@@ -28,8 +27,6 @@ body {
     margin: 1.5rem .8rem 1rem;
     
 }
-
-    
 .btn{
     display: flex;
     align-items: center;
@@ -40,13 +37,10 @@ body {
     font-weight: 500;
     font-size: 2rem;
     padding: 14px 20px;
-    
 }
-
 .top3{
     background-color: #A5A5A5;
     color: black;
-
 }
 .numbers{
     background-color: #333333;
@@ -55,16 +49,9 @@ body {
 .symbols{
     background-color: #F1A33C;
 }
-
 .content0{
-    /* border: 2px red solid; */
-    /* grid-column-start: 1;
-    grid-column-end: 5;
-    grid-row-start: 1;
-    grid-row-end: 3; */
     padding: 35px 1rem;
     color: beige;
-    /* margin-top: 5rem; */
     margin: 1rem .7rem 0;
     height: 50px;
 }

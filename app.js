@@ -10,6 +10,7 @@ window.addEventListener("load", () => {
 let numbersDiv = document.querySelector(".container")
 
 numbersDiv.addEventListener("click", (event) => {
+    console.log(event.target);
     if (event.target.classList.contains("numbers")) {
         result.innerHTML += event.target.innerText
         console.log(event.target.innerHTML);
@@ -75,15 +76,14 @@ numbersDiv.addEventListener("click", (event) => {
         }
 
     } else if (event.target.classList.contains("top3")) {
-        console.log("extra işlemler");
-        symbols()
-
+        document.onclick = changer =>{
+            symbols(changer)
+        }
     }
-
 })
 
 console.log(document.querySelectorAll(".contai").innerHTML)
-const symbols = document.onclick = changer => {
+const symbols = changer => {
     if (changer.target.innerText == "±") {
         result.innerHTML = -result.innerHTML
         if (operate.innerHTML){
