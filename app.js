@@ -11,7 +11,7 @@ let numbersDiv = document.querySelector(".container")
 
 numbersDiv.addEventListener("click", (event) => {
     console.log();
-    if (result.innerHTML.length <= 8) {
+    // if (result.innerHTML.length <= 9) {
 
         if (event.target.classList.contains("numbers")) {
             result.innerHTML += event.target.innerText
@@ -85,7 +85,7 @@ numbersDiv.addEventListener("click", (event) => {
                 symbols(changer)
             }
         }
-    }
+    // }
 })
 
 console.log(document.querySelectorAll(".contai").innerHTML)
