@@ -11,6 +11,7 @@ body {
     align-items: center;
     justify-content: center;
     background-color: #333333;
+    width: 100vw;
 }
 .contai{
     margin: auto;
@@ -19,12 +20,15 @@ body {
     /* margin-top: 20px; */
     /* margin-bottom: 20px; */
     display: grid;
+    text-align: right;
+    width: 350px;
 }
 .container{
     display: grid;
     grid-template-columns: repeat(4,1fr);
     max-height: fit-content;
     margin: 1.5rem .8rem 1rem;
+    width: 325px;
     
 }
 .btn{
@@ -54,9 +58,13 @@ body {
     color: beige;
     margin: 1rem .7rem 0;
     height: 50px;
+    font-size: 1.5rem;
 }
 .rakamlar{
     border: 2px solid red;
+}
+.content1{
+    font-size: 1.5rem;
 }
 .content17{
     grid-area: 5/1/5/3;
@@ -70,3 +78,6 @@ body {
     opacity: .5;
 }
 
+.dot{
+    background-color: #333333;
+}
