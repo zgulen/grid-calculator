@@ -21,26 +21,26 @@ numbersDiv.addEventListener("click", (event) => {
             document.onclick = operator => {
                 if (operator.target.innerText == "-") {
                     console.log("yaklaşıyoruz");
+                    operate1.innerHTML = " -"
                     operate.innerText = result.innerText
-                    operate1.innerHTML += " -"
                     result.innerHTML = ""
                 }
                 else if (operator.target.innerText == "+") {
                     console.log(operator.target.innerText);
+                    operate1.innerHTML = " +"
                     operate.innerText = result.innerText
-                    operate1.innerHTML += " +"
                     result.innerHTML = ""
                 }
                 else if (operator.target.innerText == "x") {
                     console.log(operator.target.innerText);
+                    operate1.innerHTML = " *"
                     operate.innerText = result.innerText
-                    operate1.innerHTML += " *"
                     result.innerHTML = ""
                 }
                 else if (operator.target.innerText == "÷") {
                     console.log(operator.target.innerText);
                     operate.innerText = result.innerText
-                    operate1.innerHTML += " /"
+                    operate1.innerHTML = " /"
                     result.innerHTML = ""
                 }else if(operator.target.innerText == "."){
                     result.innerHTML = result.innerHTML + "."
